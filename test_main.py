@@ -12,5 +12,5 @@ def test_upper_case():
     assert result == "HELLO"
 
 def test_addition():
-    result = main.addition(2, 2)
+    result = main.addition(4, 2)
     assert result == 6
