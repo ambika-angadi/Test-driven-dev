@@ -10,3 +10,7 @@ def test_addition():
 def test_upper_case():
     result = main.upper_case("hello")
     assert result == "HELLO"
+
+def test_addition():
+    result = main.addition(2, 2)
+    assert result == 6
